@@ -2,8 +2,8 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color:#DCD9D8;   /* background color */
-	color: #313233;          /* text color for the entire page */
+	background-color:#D9DDE7;   /* background color                                */
+	color: #313233;          /* text color for the                           entire page */
 	font-size:14px;
 	font-family: Arial, sans-serif;
 }
@@ -13,7 +13,9 @@ h1, h2 {
     color: #ffffff;
 	background-color:#02568a;
 	font-size:25px;
-    padding:6px;
+    padding:10px;
+	border-radius:20px;
+	
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
@@ -30,6 +32,8 @@ h1, h2 {
 	font-size:20px;
 	background-color:#02568a;
 	color: #ffffff;
+	border-radius:20px;
+	margin-bottom: 2px;
 	
 	
  }
@@ -38,8 +42,9 @@ h1, h2 {
 	background-color: whitesmoke;
 	padding:16px;
 	display: flex;
-	justify-content:;
-	
+	justify-content:left;
+	border-radius:20px;
+		
 	
 }
 
@@ -47,6 +52,7 @@ h1, h2 {
 	width:50%;
 	padding:6px;
 	font-size:16px;
+	border-radius:20px;
 	
 }
 
@@ -67,9 +73,18 @@ border: 2px solid #848483
 }
 	
 	
+.notifications {
+		background-color:#E48D8F;
+		padding:10px;
+		border-radius:25px;
+	}
 
 	
-	
+	.material-icons {
+	color:#02568a; 
+	font-size:3em;
+}
+
 
 
 
