@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-color:white;
+	font-size: 12px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+
+a {
+  
+  color: black;
+  text-align: center;
+  padding: 16px;
+  font-size: 200%;
+  margin:4px;
+background-color:#E1F1EE; 
+}
+#wrapper {
+	wwidth: 900px;
+	margin:0 auto;         /* centers wrapper */
+ 	text-align:center;
+	background-color:#E18C8E;
+	
+}
+
+
+
+table {
+	margin:0 auto;  /* Left table*/
+}
+
+td {
+	background-color:#F3E9E9;  /* sets background color for table cells*/
+}
+
+h1 { 
+	text-align:center;     /* centers h1 and h2 content */
+	font-size: 270%;
+	padding:10px;
+}
+h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+	font-size: 200%;
+	padding:10px;
+}
+audio { 
+	width:200px;   /* sets the width of the audio controls */
+}
