@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	text-align: center;
+	background-color:#F3D9D9; 
+}
+
+a {
+	padding: 15px;
+    margin: 3px;
+	font-size: 150%;
+	background-color:#F2ACAE; 
+	color:#040404; 
+}
+a:hover {
+	font-size:200%;
+	background-color: your_color_of_choice; 
+	color: your_color_of_choice; 
+}
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+	
+}
+h3 {
+	color:#6E4343; 
+	text-align:center;     /* centers h1 and h2 content */
+	font-size: 200%;
+	
+}
+ #smartArt_image {
+border: black 5px solid;
+}
+ 
+ #relationship {
+display: none; /* hides content */
+border: black 5px solid;
+}
+ #pyramid {
+display: none; /* hides content */
+border: black 5px solid;
+}
+
+
+.choices {
+cursor: pointer;
+}
