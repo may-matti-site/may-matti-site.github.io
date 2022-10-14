@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  text-align: center;
+  background-color: #D0D7B9;
+ font-family: Open Sans;
+}
+h1 {
+  text-align: center; /* centers h1 content */
+  font-family: Open Sans;
+	color:#080808;
+	font-size:170%;
+}
+h2 {
+  text-align: center; /* centers h1 content */
+  font-family: Open Sans;
+  font-size: 150%;
+}
+  #top a {
+    text-align: center;
+    padding: 9px;
+    margin: 10px;
+    font-size: 125%;
+    background-color: #99B98C;
+    color: #010101;
+    border-radius: 15px;
+  }
+  #top a:hover {
+    font-size: 125%;
+    background-color: #888A87;
+    color: #FFFFFF;
+  }
+  .paragraph {
+    font-size: 125%;
+    background-color: #EBF5F2;
+    border-radius: 10px;
+    border: black 2px solid;
+    padding: 10px;
+    margin: 5px;
+    text-align:justify;
+    width: 100%;
+  }
+  
+.B {
+	
+    margin: 5px;
+    width: 95%;
+    background-color: #EBF5F2;
+    text-align: center;
+}
+  /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+  #wrapper {
+    width: 900px;
+    margin: 0 auto; /* centers wrapper */
+  }
+  #smartArt_image {
+    border: black 5px solid;
+  }
+  #pyramid {
+    display: none; /* hides content */
+    border: black 5px solid;
+  }
+  .references {
+    text-align: center;
+}
+
+.choices {
+cursor: pointer;
+	
+}
+
+h5 { 
+ text-align: justify; 
+  font-family: Open Sans;
+	font-size:125%;
+    
+    
+}
+h6{ 
+ text-align:justify; 
+  font-family:Open Sans;
+	font-size: 125%;
+	margin: 10px;
+	font-weight:normal;
+}
+.paragraph1 {
+    
+    background-color: #EBF5F2;
+	font-size:125%;
+    border-radius: 10px;
+    border: black 2px solid;
+    padding: 2px;
+    margin: 5px;
+    text-align:left;
+    width: 100%;
+  }
+
+.C {
+    
+    background-color: #EBF5F2;
+	font-size:150%;
+    text-align:left;
+}
+	
+h4 { 
+	text-align:center;     /* centers h1 and h2 content */
+    color: #010101;
+
+	font-size:25px;
+    
+	
+}
+
+
+.stepTitle{
+	padding:6px;
+	text-align:left;
+	font-size:135%;
+	background-color:#EBF5F2;
+	color: #020202;
+	border-radius:20px;
+	margin-bottom: 2px;
+	
+	
+ }
+
+.stepContent{ 
+	background-color:#EBF5F2;
+	padding:16px;
+	display: flex;
+	justify-content:left;
+	border-radius:20px;
+	text-align:left;
+		
+	
+}
+
+.stepDescription {
+	width:50%;
+	padding:6px;
+	font-size:125%;
+	border-radius:20px;
+	text-align:left;
+	
+}
+
+.stepImage {
+	width:50%;	
+	padding:12px;
+    text-align: center;
+		
+}
+
+img { 
+border-radius: 10px;
+border: black 2px solid;
+
+}
+	
+	
+.notifications {
+		background-color:#E48D8F;
+		padding:10px;
+		border-radius:25px;
+	}
+
+	
+.material-icons {
+	color:#02568a; 
+	font-size:3em;
+}
+
+.insideparagraph {
+    
+    background-color: #99B98C;
+    border-radius: 10px;
+    border: black 2px solid;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+    width: 100%;
+  }
+
+
+
+

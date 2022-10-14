@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>final</title>
+<link href="css/final.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+<h1>The power of SmartArt in communicating concepts visually</h1>
+<br>
+<div id="top"> <a href="indexhome.html">Home</a> <a href="finalpage2.html">Understanding SmartArt layouts</a> <a href="finalpage3.html">Using SmartArt graphic</a> <a href="finalpage4.html">Instructional Module</a> <a href="finalpage5.html">Knowledge Check</a> <a href="finalpage6.html">Resources</a> </div>
+<br>
+<br>
+<br>
+<div id="wrapper">
+<div class="paragraph">
+  <h2>Why SmartArt matters</h2>
+  <p>Using SmartArt graphics is beneficial for constructing diagrams professional-looking instead of building diagrams from scratch quickly and easily. Also, it allows you to communicate concepts with graphics rather than using text. The word document and PowerPoint has a SmartArt graphic in the illustration groups which consist of a range of graphic layouts that help in visualizing idea or information into a simple to complex diagrams. Each SmartArt layout provides a different way to convey your content and illustrate your message by selecting a specific layout from the SmartArt graphic and then customizing it to fit your needs. In addition, there is greater effectiveness in SmartArt graphics when shapes and text are limited to key points because it is difficult to convey your idea visually when your SmartArt graphic has a lot of text.</p>
+  <div class="A">
+    <p>SmartArt enable you to:</p>
+  </div>
+  <ul >
+    <li>Add diagrams to show a variety of relationships.</li>
+    <li>Switch between SmartArt graphic types easily to determine what works best for you.</li>
+    <li>Modify the colors and effects of your SmartArt graphic so they will match with your presentation's theme colors.</li>
+    <li>Edit individual shape elements within the SmartArt graphic to further customize the look.</li>
+  </ul>
+  
+  <h3 id="hint">Hint: Hover over the image below to see an example illustration of a learning theory!</h3>
+  <div class="B">
+	   <img onmouseenter="showAnswer()" id="smartArt"  src= "imag/img1 - Edited.png"  width="440" height="330" alt=""/> 
+<img onmouseleave="hideAnswer()" id="pyramid" src= "imag/img2.png" width="440" height="330" alt=""/> 
+	</div>
+	</div>
+<!--wrapper-->
+	
+<script>
+ function showAnswer() {
+	   $("#smartArt").hide();
+	   $("#pyramid").show();
+	   $("#answer").html("<h2>They love eucalyptus leaves!</h2>");
+	}
+
+function hideAnswer() {
+	   $("#smartArt").show();
+	   $("#pyramid").hide();
+	   $("#answer").html("");  
+	}
+</script>
+<div class="references">
+	
+	<h3>References </h3>
+	<p> Attribution: Microsoft PowerPoint 2010
+- Level 1. <a href="http://www2.westsussex.gov.uk/LearningandDevelopment/IT%20Learning%20Guides/Microsoft%20PowerPoint%202010%20-%20Level%201/06%20SmartArt.pdf" target="_blank">SmartArt </a>
+	</p>
+
+		</div> <!-- end of references -->	
+		<br>
+	<footer>
+		<p>Created by: May Matti </p>
+		
+		</footer>
+
+</body>
+</html>

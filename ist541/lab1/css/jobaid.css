@@ -2,36 +2,28 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color:#D9DDE7;   /* background color                                */
-	color: #313233;          /* text color for the                           entire page */
+	
 	font-size:14px;
-	font-family: Arial, sans-serif;
+	font-family: Open Sans ;
 }
 
-h1, h2 { 
+	
+h4 { 
 	text-align:center;     /* centers h1 and h2 content */
-    color: #ffffff;
-	background-color:#02568a;
+    color: #010101;
+
 	font-size:25px;
-    padding:10px;
-	border-radius:20px;
+    
 	
 }
 
-/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
-#wrapper {
-	width: 1000px; 
-	margin:0 auto;    /* centers wrapper */
-	
-}
 
-/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
 	padding:6px;
 	text-align:left;
 	font-size:20px;
-	background-color:#02568a;
-	color: #ffffff;
+	background-color:#EBF5F2;
+	color: #020202;
 	border-radius:20px;
 	margin-bottom: 2px;
 	
@@ -39,11 +31,12 @@ h1, h2 {
  }
 
 .stepContent{ 
-	background-color: whitesmoke;
+	background-color:#EBF5F2;
 	padding:16px;
 	display: flex;
 	justify-content:left;
 	border-radius:20px;
+	text-align:left;
 		
 	
 }
@@ -51,8 +44,9 @@ h1, h2 {
 .stepDescription {
 	width:50%;
 	padding:6px;
-	font-size:16px;
+	font-size:125%;
 	border-radius:20px;
+	text-align:left;
 	
 }
 
@@ -85,7 +79,16 @@ border: 2px solid #848483
 	font-size:3em;
 }
 
-
+.insideparagraph {
+    
+    background-color: #418D9A;
+    border-radius: 10px;
+    border: black 2px solid;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+    width: 100%;
+  }
 
 
 

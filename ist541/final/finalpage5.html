@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>final</title>
+<link href="css/final.css" rel="stylesheet" type="text/css">
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+   $( function() {
+	   $("#option1").click( function(){
+		   $("#feedback").html("<h6 style='color:red'> Picture option does not have the predesigned graphics. </h6>");
+		    $("#smartart").css("display","none");
+	   });
+	   
+      $("#option2").click( function(){
+		   $("#feedback").html("<h6 style='color:green'> Correct! The SmartArt option has a variety of predesigned graphics. </h6>");
+		   $("#smartart").css("display","inline");
+	   });	 
+	   
+       $("#option3").click( function(){
+		   $("#feedback").html("<h6 style='color:red'> 3D modules option does not have the predesigned graphics. </h6>");
+		    $("#smartart").css("display","none");
+	   });		   
+	     
+	    $("#option4").click( function(){
+		   $("#feedback1").html("<h6 style='color:green'> Correct! The SmartArt Design tab has the option to change the graphics' color . </h6>");
+		  $("#smartart1").css("display","inline");
+	   });
+	     $("#option5").click( function(){
+		   $("#feedback1").html("<h6 style='color:red'> The Design tab includes table formatting, cell and table borders, arranging the table on the page, and the size of the table.  </h6>");
+		    $("#smartart1").css("display","none");
+	   });	
+	     $("#option6").click( function(){
+		   $("#feedback1").html("<h6 style='color:red'> The Draw tab includes three types of drawing textures: pen, pencil, and highlighter, each with a different look.</h6>");
+		    $("#smartart1").css("display","none");
+	   });	
+	   
+	    $("#option9").click( function(){
+		   $("#feedback2").html("<h6 style='color:green'> Correct! Matrix: Show how parts relate to a whole.  </h6>");
+		  $("#matrix").css("display","inline");
+	   });
+	   
+	   $("#option7").click( function(){
+		   $("#feedback2").html("<h6 style='color:red'> Hierarchy: For a hierarchy information or reporting relationships in an organization.</h6>");
+		    $("#matrix").css("display","none");
+	   });
+	   $("#option8").click( function(){
+		   $("#feedback2").html("<h6 style='color:red'> List: For items without a sequence, such as a list of key objects or concepts. </h6>");
+		    $("#matrix").css("display","none");
+	   });
+	   
+   });
+
+	
+</script>
+
+</head>
+
+<body>
+<h1>The power of SmartArt in communicating concepts visually</h1>
+<br>
+<div id="top"> <a href="indexhome.html">Home</a> <a href="finalpage2.html">Understanding SmartArt layouts</a> <a href="finalpage3.html">Using SmartArt graphic</a> <a href="finalpage4.html">Instructional Module</a> <a href="finalpage5.html">Knowledge Check</a> <a href="finalpage6.html">Resources</a> </div>
+<br>
+<br>
+<br>
+<div id="wrapper">
+<div class="paragraph">
+<h2>Answer the following questions</h2>
+	
+<h5> Choose the correct options, a variety of predesigned graphics is available at the dialog box of: </h5>
+ 
+
+  <h6 id="option1" class="choices"> a) Picture</h6>   
+  <h6 id="option2" class="choices"> b) SmartArt </h6>
+  <h6 id="option3" class="choices">c) 3D models </h6>    
+  <div id="feedback"></div>
+
+  <img id="smartart" style="display:none" src="imag/img1.png" width="200" height="140" alt=""/> 
+	
+	<br>
+	
+<h5>Choose from the following options, to modify the color of a used graphic select: 
+</h5>
+
+
+  <h6 id="option4" class="choices"> a) SmartArt Design tab </h6>   
+  <h6 id="option5" class="choices"> b) Design tab</h6>
+  <h6 id="option6" class="choices"> c) Draw tab </h6>    
+  <div id="feedback1"></div>
+
+  <img id="smartart1" style="display:none" src="imag/SmartArt.png"/>
+<br>
+	
+<h5>What is the appropriate layout that shows how parts are related to the whole? <br>
+Click on one of the following choices:</h5>
+
+ 
+<h6 id="option7" class="choices"> a) Hierarchy tab </h6>   
+  <h6 id="option8" class="choices"> b) List</h6>
+  <h6 id="option9" class="choices"> c) Matrix </h6> 
+
+
+<div id="feedback2"></div>
+<img id="matrix" style="display:none" src= "imag/Matrix category.png" />
+    
+ 
+
+</div>
+	
+</div>
+	<br>
+<br>
+<footer>
+  <p>Created by: May Matti </p>
+</footer>
+	
+</body>
+</html>
