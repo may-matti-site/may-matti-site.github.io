@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-color: #CCE4F6;
+	
+}
+a {
+    padding: 15px;
+    margin: 10px;
+	font-size: 125%;
+	background-color:#12B1F6; 
+	color:#040404; 
+}
+a:hover {
+	font-size:200%;
+	background-color:#F9F4F4; 
+	color: your_color_of_choice; 
+}
+
+h1,h2 {
+  text-align: center; /* centers h1 content */
+  font-family: Open Sans;
+	color:#080808;
+	font-size:170%;
+}
+h3 {
+  
+  font-family: Open Sans;
+  font-size: 150%;
+	text-align:justify;
+	font-size:135%;
+	color: #020202;
+	margin-left: 30px;
+}
+
+.stepTitle{
+	padding:6px;
+	text-align:left;
+	font-size:135%;
+	color: #020202;
+	border-radius:20px;
+	margin-bottom: 2px;
+	background-color: #12B1F6;
+	margin-right: 1100px;
+	margin-left: 50px;
+ }
+
+.stepContent{ 
+	
+	padding:16px;
+	display: flex;
+	justify-content:left;
+	border-radius:20px;
+	text-align:left;
+	font-family: Open Sans;
+		
+	
+}
+
+.stepDescription {
+	width:100%;
+	padding:6px;
+	font-size:125%;
+	border-radius:20px;
+	text-align:left;
+	font-family: Open Sans;
+	
+}
+ .stepDescription2 {
+	width:100%;
+	font-size:125%;
+	
+	text-align:left;
+	font-family: Open Sans;
+	margin-left: 20px;
+	 
+}
+
